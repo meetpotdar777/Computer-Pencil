@@ -1,0 +1,59 @@
+/* The Main Gadget Body */
+.root {
+    -fx-background-color: #0096D6; /* Doraemon Blue */
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 8;
+    -fx-border-radius: 20;
+    -fx-background-radius: 25;
+}
+
+/* The Gadget Screen (Output Area) */
+.text-area {
+    -fx-font-family: 'Consolas', 'Courier New', monospace;
+    -fx-font-size: 14px;
+    -fx-control-inner-background: #2b2b2b; /* Dark Screen Look */
+    -fx-text-fill: #00FF00; /* Retro green "thinking" text */
+    -fx-border-color: #FFD700; /* Gold border like a bell */
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+}
+
+/* The Buttons */
+.button {
+    -fx-background-color: #FFD700; /* Doraemon's Bell Yellow */
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+    -fx-background-radius: 15;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #FFEA00;
+}
+
+/* Special Style for the Clear Button (Red like his nose) */
+.clear-button {
+    -fx-background-color: #FF6363;
+    -fx-text-fill: white;
+}
+
+.clear-button:hover {
+    -fx-background-color: #FF4D4D;
+}
+
+/* Text Inputs */
+.text-field {
+    -fx-background-radius: 10;
+    -fx-padding: 8;
+    -fx-border-color: #cccccc;
+    -fx-font-size: 14px;
+}
+
+.label {
+    -fx-font-family: "Impact", sans-serif;
+    -fx-font-size: 28px;
+    -fx-text-fill: white;
+    /* Added a glow effect to the title */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0, 0, 0);
+}
